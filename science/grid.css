@@ -43,6 +43,8 @@ i {
 main, aside, nav{
   background-color: rgba(245, 245, 245, 0.877);
   border-radius: 10px;
+  align-items: center;
+  align-content: center;
 }
 header img{
     height: 60px;
@@ -91,12 +93,14 @@ ul {
     margin: 2em;
     width:90%;
     height: auto;
+    align-items: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
   main img{
     margin: 1em;
-    width:300px;
+    width:90%;
     height: auto;
+    align-items: center;
     
   }
   h2{
