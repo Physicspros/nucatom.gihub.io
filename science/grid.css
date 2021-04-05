@@ -97,10 +97,11 @@ ul {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
   main img{
-    margin: 1em;
-    width:90%;
+    margin: 2em;
+    width: 95%;
     height: auto;
     align-items: center;
+    
     
   }
   h2{
