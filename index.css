@@ -143,23 +143,16 @@ li.dropdown {
   
 }
 .social-media{
-  width: 40%;
+  width: 90%;
   height: auto;
-  float: left;
+  float: none;
   background-color: #f7f7f7;
   align-items: center;
-  padding: 2em;
+  padding: auto;
   text-align: center;
+  padding-top: 30px;
 }
-.form-container{
-  width: 40%;
-  height: auto;
-  float: right;
-  background-color: #fae8e8;
-  align-items: center;
-  padding: 2em;
-  text-align: center;
-}
+
 /*--social media icons-- */
 .fab {
   padding: 20px;
