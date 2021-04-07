@@ -59,18 +59,18 @@ header{
     background-color: #0077b6;
 }
 
-header ~ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  header ~ li {
+  header li {
     float:right;
   }
   
-  header ~ li a {
+  header li a {
     display: block;
     color: rgb(252, 249, 249);
     text-align:center;
@@ -78,7 +78,7 @@ header ~ul {
   }
 
 
-header~  li a:hover:not(.active) {
+header li a:hover:not(.active) {
     background-color:#ff7d00;
   }
   h1{
@@ -208,7 +208,7 @@ li.dropdown {
   header{
       background-color:#0077b6;
       height: 75px;
-       ;
+       
   }
   header img{
     height: 30px;
