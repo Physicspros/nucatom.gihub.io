@@ -59,18 +59,18 @@ header{
     background-color: #0077b6;
 }
 
-ul {
+header ~ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  li {
+  header ~ li {
     float:right;
   }
   
-  li a {
+  header ~ li a {
     display: block;
     color: rgb(252, 249, 249);
     text-align:center;
@@ -78,7 +78,7 @@ ul {
   }
 
 
-  li a:hover:not(.active) {
+header~  li a:hover:not(.active) {
     background-color:#ff7d00;
   }
   h1{
@@ -117,7 +117,7 @@ ul {
   font-size: 30px;
   color: #0077b6;
   margin: 20px 20px 0 40px;
-  padding: .5em;
+  padding-left: 0.5em;
  
   }
   h2{
@@ -138,6 +138,9 @@ ul {
     font-size: 16px;
     color: #0077b6;
     margin: 20px 20px 0 40px;
+  }
+  aside a {
+    display: block;
   }
  section{
    border-style: solid;
