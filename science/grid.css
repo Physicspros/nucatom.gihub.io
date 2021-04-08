@@ -224,5 +224,16 @@ li a {
     padding: 10px 10px;
     font-size: 14px;
   }
- 
+ p{
+   font-size: 14px;
+ }
+
+  main img{
+    margin: 1em;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    
+    
+ }
   }
