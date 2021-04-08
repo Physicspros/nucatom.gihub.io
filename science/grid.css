@@ -9,21 +9,6 @@
     grid-template-rows: 70px auto auto;
     gap: 0.5em;
     }
-nav i {
-  font-size: 70px;
-  color: #0004ff;
-  transform: rotate(-90deg);
-  position: relative;
-  left: 35%;
-  top:100px;
-}
-nav i {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  animation: mymove 4s;
-  animation-fill-mode: forwards;
-}
 
 main, aside, nav{
   background-color: rgba(245, 245, 245, 0.877);
