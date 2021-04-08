@@ -2,13 +2,14 @@
     margin: 0;
     padding:0;
 }
+  
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 70px auto auto;
     gap: 0.5em;
     }
-i {
+nav i {
   font-size: 70px;
   color: #0004ff;
   transform: rotate(-90deg);
@@ -16,29 +17,13 @@ i {
   left: 35%;
   top:100px;
 }
-i {
+nav i {
   width: 100px;
   height: 100px;
   position: relative;
   animation: mymove 4s;
   animation-fill-mode: forwards;
 }
-@keyframes mymove {
-  from {top: 300px;}
-  to {top: 10px; color: #ff7d00;}
-}
-.animation-1
-  {
-    position: relative;
-    animation: my-move 5s;
-    animation-fill-mode: forwards;
-    text-align: center;
-    padding-top: 20px;
-  }
-  @keyframes my-move {
-    from {top: 270px;}
-    to {top: 10px; color:#0077b6;}
-  }
 
 main, aside, nav{
   background-color: rgba(245, 245, 245, 0.877);
