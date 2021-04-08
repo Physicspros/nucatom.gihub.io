@@ -111,6 +111,8 @@ header li a:hover:not(.active) {
   }
   aside a {
     display: block;
+    margin: 1em;
+    padding: 1em;
   }
  section{
    border-style: solid;
