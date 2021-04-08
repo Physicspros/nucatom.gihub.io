@@ -126,6 +126,23 @@ header li a:hover:not(.active) {
     grid-column-end: -1;
     background-color: #0077b6;
 }
+footer{
+  
+  background-color: #f7f7f7;
+}
+about{
+
+background-color: #f7f7f79f;
+}
+.about h3, p{
+align-items: center;
+margin-left: 15vw;
+margin-top: 30px;
+margin-right: 15vw;
+padding: 2em;
+color: rgb(56, 56, 56);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 li a, .dropbtn {
   display: inline-block;
   color: white;
@@ -207,4 +224,4 @@ li a {
     
     
  }
-  }
+}
