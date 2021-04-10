@@ -129,11 +129,10 @@ header li a:hover:not(.active) {
   footer{
     grid-column-start: 1;
     grid-column-end: -1;
-    background-color: #0077b6;
 }
 footer{
   
-  background-color: #f7f7f7;
+  background-color: #6b6868;
 }
 about{
 
