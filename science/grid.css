@@ -132,7 +132,7 @@ header li a:hover:not(.active) {
 }
 footer{
   
-  background-color: #6b6868;
+  background-color: #23272b;
 }
 about{
 
@@ -160,7 +160,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 90%;
     height: auto;
     float: none;
-    background-color: #f7f7f7;
+    background-color: #23272b;
     align-items: center;
     padding: auto;
     text-align: center;
