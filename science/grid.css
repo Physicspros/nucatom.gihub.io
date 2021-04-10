@@ -173,6 +173,25 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size: 22px;
     transition: all 0.4 ease;
   }
+  .facebook{
+    background: cornflowerblue;
+    color: darkgoldenrod;
+    }
+    .twitter{
+      background: darkorange;
+      color: deepskyblue;
+    
+    }
+    .instagram
+    {
+      background: dimgray;
+      color:ghostwhite;
+
+    }
+    .linkedin{
+      background: greenyellow;
+      color: indigo;
+    }
   
 li a, .dropbtn {
   display: inline-block;
