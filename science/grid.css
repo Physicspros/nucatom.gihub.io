@@ -156,6 +156,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+  
   .social-media {
     position: fixed;
     top: 50%;
@@ -165,11 +166,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .social-media a{
-    width: 90%;
-    height: auto;
-    float: none;
-    background-color: #4191e2;
-    align-items: center;
+    display: block;
+    text-align: center;
+    background-color: #f7fafd;
     padding-top: 30px;
   }
   
