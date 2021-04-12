@@ -167,28 +167,27 @@ color: rgb(255, 255, 255);
     display: block;
     width: 60px;
     text-align: center;
-    background-color:  #0077b6;
     padding: 15px;
     font-size: 22px;
     transition: all 0.4 ease;
   }
   .facebook{
     background-color: rgb(236, 20, 20);
-    color: rgb(214, 212, 207);
+    color: rgb(235, 235, 235);
     }
     .twitter{
-      background-color: rgb(179, 255, 0);
-      color: rgb(198, 203, 204);
+      background-color: rgb(0, 119, 255);
+      color: rgb(236, 236, 236);
     }
     .instagram
     {
       background-color: rgb(17, 184, 161);
-      color:ghostwhite;
+      color:rgb(227, 0, 235);
 
     }
     .linkedin{
       background-color: rgb(189, 17, 152);
-      color: rgb(188, 185, 190);
+      color: rgb(238, 238, 238);
     }
   
 li a, .dropbtn {
