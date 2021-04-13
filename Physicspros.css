@@ -33,7 +33,8 @@
 }
 .header{
     background-image: url(/bg2-mobile.svg);
-    height: 100vh;
+    width: 100vw;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
