@@ -2,12 +2,6 @@
     margin: 0;
     padding:0;
 }
-.container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:1.5fr 1fr 1fr 1fr 1fr;
-    gap: 0.5em;
-    }
 
 header img{
     height: 60px;
@@ -15,13 +9,6 @@ header img{
     margin-top: 10px;
     padding: 15px 0 0 20px;
     float: left;
-    
-}
-header{
-    background-image: url(/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-color: #f7f7f7bb;
     
 }
 
@@ -49,14 +36,14 @@ ul {
     color: #ff7d00;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 10vw;
+    font-size: 6vw;
     padding-top: 0.5em;
     
   }
   
   h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   color: #0077b6;
   margin: 20px 20px 0 40px;
   text-align: center;
@@ -75,37 +62,19 @@ h3{
     text-align: left;
   }
 
-  footer{
-  
-    background-color: #f7f7f7;
-}
-about{
-  
-  background-color: #f7f7f79f;
-}
-.about h3, p{
-  align-items: center;
-  margin-left: 15vw;
-  margin-top: 30px;
-  margin-right: 15vw;
-  padding: 2em;
-  color: rgb(56, 56, 56);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-learn h3{
-  display: inline-block;
-  align-items: center;
-  margin-left: 14vw;
-  margin-top: 30px;
-  
-  padding: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+.about h3, p{
+  text-align: center;
+  
+  padding: 2em;
+  color: rgb(255, 255, 255);
+  
 }
+
 
 li a, .dropbtn {
   display: inline-block;
-  color: rgb(14, 17, 224);
+  color: rgb(232, 232, 233);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -143,7 +112,7 @@ li.dropdown {
   
 }
 .social-media{
-  width: 90%;
+  width: 100%;
   height: auto;
   float: none;
   background-color: #f7f7f7;
@@ -204,37 +173,3 @@ li.dropdown {
   color: white;
 }
 
-@media screen and (max-width:900px){
-    .container{
-        background: none;
-        
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "header"
-    "main"
-    "nav"
-    "aside"
-    "footer";
-    }  
-  header{
-      background-color:#0077b6;
-      height: 75px;
-  }
-  header img{
-    height: 30px;
-    width: auto;
-    padding: 10px 0 0 20px;
-    float: left;
-   
-}
-h1 {
-  font-size: 14vw;
-}
-li a {
-    display: block;
-    color: rgb(252, 249, 249);
-    text-align:center;
-    padding: 10px 10px;
-    font-size: 14px;
-  }
-}
