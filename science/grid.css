@@ -84,6 +84,9 @@ header li a:hover:not(.active) {
     font-size: 20px;
     padding: 0.5em;
   }
+  .p1{
+    text-align: center;
+  }
  
   main video{
     margin: 2em;
