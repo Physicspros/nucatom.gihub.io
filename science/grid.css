@@ -88,6 +88,14 @@ header li a:hover:not(.active) {
     text-align: center;
     align-items: center;
   }
+  .p2{
+    border-style: solid ;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #ff7d00;
+    background-color: #ff7d00;
+    margin: 15px;
+  }
  
   main video{
     margin: 2em;
