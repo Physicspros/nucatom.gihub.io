@@ -97,6 +97,7 @@ header li a:hover:not(.active) {
     text-align: center;
     align-content: center;
     padding: 10px;
+    display: block;
     
   }
  
