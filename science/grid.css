@@ -94,9 +94,10 @@ header li a:hover:not(.active) {
     border-radius: 10px;
     border-color: #ff7d00;
     background-color: #ff7d00;
-    margin: 15px;
     text-align: center;
     align-content: center;
+    padding: 10px;
+    
   }
  
   main video{
