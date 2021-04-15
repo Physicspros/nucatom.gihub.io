@@ -89,12 +89,14 @@ header li a:hover:not(.active) {
     align-items: center;
   }
   .p2{
-    border-style: solid ;
+    border-style: solid;
     border-width: 2px;
     border-radius: 10px;
     border-color: #ff7d00;
     background-color: #ff7d00;
     margin: 15px;
+    text-align: center;
+    align-content: center;
   }
  
   main video{
