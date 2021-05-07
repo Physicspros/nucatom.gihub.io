@@ -58,8 +58,8 @@ header li a:hover:not(.active) {
 font-family: 'Pangolin', cursive;
     font-size: 40px;
     padding: 0.5em;
-    border: 5px solid #B33F62;
-    background-color: #5c303d;
+    border: 5px solid #0077b6;
+    background-color: #0077b6;
     border-radius: 8px;
   }
   h2{
