@@ -119,6 +119,7 @@ font-family: 'Pangolin', cursive;
 
   main p{
     font-family: 'Itim', cursive;
+    line-height: 1.6;
     font-size: 16px;
     color: rgb(50, 50, 54);
     padding: 0 2em 2em 2em;
@@ -154,6 +155,7 @@ footer{
 
 .about p{
 align-items: center;
+line-height: 1.6;
 margin-left: 15vw;
 margin-top: 30px;
 margin-right: 15vw;
