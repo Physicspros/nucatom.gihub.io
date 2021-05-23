@@ -1,25 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 *{
     margin: 0;
     padding:0;
 }
 
-.container{
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: auto auto auto;
-  background-color:rgb(243, 243, 243);
-  gap: 0.5em;
-  grid-template-areas:
-  "head head head"
-  "la art ra"
-  "ft ft ft";
-}
-  .left-aside, .article, .right-aside, .footer {
-    background-color: white;
-    border-radius: 0.25em;
-  }
+/* define grid area and setting up grid */
 
 .header{
   grid-area: head;
@@ -27,12 +14,10 @@
   background-color: #0077b6;
 }
 .left-aside{
-  grid-area: la;
-  overflow: scroll;
+ 
 }
 .right-aside{
   grid-area: ra;
-  overflow: scroll;
 }
 .article{
   grid-area: art;
@@ -41,16 +26,34 @@
   grid-area: ft;
 }
 
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto auto auto;
+  background-color:white;
+  gap: 0.5em;
+  grid-template-areas:
+  "head head head"
+  "la art ra"
+  "ft ft ft";
+}
+  .left-aside, .article, .right-aside, .footer {
+   background-color: white;
+    border-radius: 0.25em;
+  }
+
+
 .article img{
   width: 100%;
   height: auto;
 }
 
+/* Header set up*/
 
 header img{
     height: 60px;
     width: auto;
-    margin-top: 10px;
+    margin-top: 8px;
     padding: 1px 0 0 20px;
     float: left;
 
@@ -83,12 +86,61 @@ ul {
     margin: 1em;
     padding: 0.25em;
     text-align: center;
-    color: rgb(122, 223, 214);
+    color: rgb(0, 255, 234);
     background-color: #0077b6;
     border-radius: 2em;
 
   }
+/* Button design*/
 
+.bt {
+  background-color: rgb(0, 255, 234);
+  border-radius: 1em;
+  border: none;
+  box-shadow: 0 2px 2px rgb(221, 221, 221);
+  margin: 1em 0 0 2em;
+  padding: 0.3em;
+  width:80%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+
+}
+
+.bt:hover {
+  background-color: #0077b6;
+  color: rgb(0, 255, 234);
+  box-shadow: 0 5px #666;
+}
+
+.topics{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+.topics > div {
+  height: auto;
+  width: auto;
+  border: 2px solid rgb(241, 241, 241);
+}
+.topics img{
+  height: 300px;
+  width: 500px;
+}
+.head-topics{
+  transform: rotate(90deg);
+  margin-top: 100px;
+  font-size: 40px;
+  
+}
+.para-topics{
+  float: right;
+  width: 200px;
+  font-size: medium;
+  padding: 15px;
+}
 
 li a, .dropbtn {
   display: inline-block;
